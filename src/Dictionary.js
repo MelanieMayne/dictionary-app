@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Results from "./Results";
 import axios from "axios";
 
 export default function Dictionary() {
@@ -28,6 +29,7 @@ export default function Dictionary() {
                 <input type="search" placeholder="Lookup Word..." onChange={handleWord}></input>
                 <input type="submit" value="Search"></input>
             </form>
+            <Results results={results} />
         </div>
     );
 }
