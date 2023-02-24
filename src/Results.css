@@ -1,0 +1,27 @@
+.Results {
+    text-align: left;
+    margin-left: 100px;
+    line-height: 1.25;
+}
+
+.Results h2 {
+    font-family: 'Rye';
+}
+.Results h3, h4, p {
+    font-family: 'Gideon Roman';
+}
+.Results h2 {
+    font-size: 40px;
+}
+.Results h3 {
+    font-size: 25px;
+}
+.Results h4 {
+    font-size: 30px;
+}
+.Results p {
+    font-size: 20px;
+}
+.Results .example {
+    margin-top: 12px;
+}
