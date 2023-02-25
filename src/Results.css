@@ -5,13 +5,15 @@
 }
 
 .Results h2 {
-    font-family: 'Rye';
+    font-family: 'Grenze Gotisch';
+    text-transform: capitalize;
+    color: #1F2A46;
 }
 .Results h3, h4, p {
     font-family: 'Gideon Roman';
 }
 .Results h2 {
-    font-size: 40px;
+    font-size: 50px;
 }
 .Results h3 {
     font-size: 25px;
@@ -20,7 +22,7 @@
     font-size: 30px;
 }
 .Results p {
-    font-size: 20px;
+    font-size: 25px;
 }
 .Results .example {
     margin-top: 12px;
