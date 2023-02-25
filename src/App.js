@@ -11,7 +11,7 @@ export default function App() {
           <h1>Dictionary App</h1>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultSearchedWord="Novel"/>
         </main>
       </div>  
     </div>
