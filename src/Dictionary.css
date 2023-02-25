@@ -22,3 +22,9 @@
     background-color: #1F2A46;
     color: white;
 }
+
+@media (max-width: 600px) {
+    .Dictionary .search-bar {
+        width: 175px;
+    }
+}
