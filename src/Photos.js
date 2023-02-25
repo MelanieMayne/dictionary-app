@@ -7,7 +7,7 @@ export default function Photo(props) {
             <div className="Photos">
                 {props.photos.map(function(photo, index) {
                     return (
-                        <img src={photo.src.landscape} key={index}></img>
+                        <img src={photo.src.landscape} key={index} alt={photo.alt}></img>
                     )
                 })}
             </div>
